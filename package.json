@@ -2,6 +2,10 @@
   "name": "nextq",
   "version": "0.1.0",
   "private": true,
+  "overrides": {
+    "@types/react": "18.2.52",
+    "@types/react-dom": "18.2.18"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build", 
